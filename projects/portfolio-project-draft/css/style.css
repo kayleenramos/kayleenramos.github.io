@@ -1,0 +1,52 @@
+body {
+    background-color: #e9e2da;
+    color: #48372f;
+    font-size: 16px;
+    font-family: "Lora", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #cabccd;
+
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+    height: auto;
+}
+
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-family: "Quattrocento", serif;
+}
+
+h3 {
+    font-family: 'Gilda Display', serif;
+    font-size: 4.5em;
+    font-weight: 10;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+a {
+    color: #82716e;
+    font-size: 1.25em;
+}
+
+footer {
+    font-size: 1em;
+}
