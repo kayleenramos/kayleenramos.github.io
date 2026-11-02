@@ -1,6 +1,6 @@
 body {
-    background-color: #e9e2da;
-    color: #48372f;
+    background-color: #faf9f4;
+    color: #5992C6;
     font-size: 16px;
     font-family: "Lora", serif;
 }
@@ -10,14 +10,19 @@ html {
 }
 
 header {
-    background-color: #cabccd;
-
+    background-color: #351e28;
+    height: 3.95em;
     text-align: center;
+
 }
 
-header img {
-    width: 50%;
-    height: auto;
+header a {
+    color: #e9e2da;
+    font-family: 'Gilda Display', serif
+}
+
+nav a {
+    padding: .3em;
 }
 
 
@@ -25,28 +30,36 @@ h1 {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-size: 6em;
+    text-align: center;
 }
 
 h2 {
-    font-size: 1.4em;
-    font-family: "Quattrocento", serif;
+    font-weight: 400;
 }
 
 h3 {
-    font-family: 'Gilda Display', serif;
-    font-size: 4.5em;
-    font-weight: 10;
+    font-weight: 300;
 }
 
 h4 {
-    font-size: 2em;
+    color: #e9e2da;
+}
+
+h5 {
+    color: #401f28
 }
 
 a {
-    color: #82716e;
+    color: #351e28;
     font-size: 1.25em;
 }
 
 footer {
     font-size: 1em;
+    background-color: #351e28;
+}
+
+footer a {
+    color: #e9e2da;
+    padding: .3em;
 }
