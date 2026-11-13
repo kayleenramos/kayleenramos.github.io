@@ -1,28 +1,23 @@
 body {
-    background-color: #faf9f4;
+    background-color: #351e28;
     color: #5992C6;
     font-size: 14px;
     font-family: "Libre Baskerville", serif;
-}
-
-section {
-    margin: 4em 0;
-    padding: 2em 0;
-    border-bottom: 1px solid rgb(225, 220, 221);
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-header {
-    background-color: #351e28;
-    padding: 1em 0;
-    text-align: right;
-    margin: 0 0 3em 0;
-    padding-left: 0.22em;
-    padding-right: 0.22em;
+main {
+    background-color: #faf9f4;
+    padding: 2em 0;
+}
 
+header {
+    text-align: right;
+    margin: 2em 0 3em 0;
+    padding: 0 .22em;
 }
 
 header a {
@@ -34,16 +29,23 @@ nav a {
     padding: .3em;
 }
 
+section {
+    margin: 4em 0;
+    padding: 2em 0;
+    border-bottom: 1px solid rgb(225, 220, 221);
+}
+
 h1 {
     font-family: "Anton", sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 6em;
     text-align: center;
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 800;
     font-size: 3em;
+    padding: 0 0 .5em 0;
 }
 
 #home h2 {
@@ -52,17 +54,13 @@ h2 {
 }
 
 h3 {
-    font-weight: 300;
+    color: #401f28;
+    font-size: 1.75em;
 }
 
 h4 {
     color: #e9e2da;
-}
-
-h5 {
-    color: #401f28;
-    font-size: 1.75em;
-
+    font-size: 1.25em;
 }
 
 li {
@@ -75,8 +73,17 @@ a {
     font-size: 1.25em;
 }
 
+#campaign-example img {
+    padding: 0 0 1em 0;
+}
+
 #campaign-example p {
     margin: 1em 0;
+}
+
+#writing-example a {
+    display: block;
+    padding: 0 0 1em 0;
 }
 
 #writing-example p {
@@ -84,7 +91,7 @@ a {
 }
 
 footer {
-    font-size: 1em;
+    padding: 2em 0;
     background-color: #351e28;
     text-align: center;
 }
